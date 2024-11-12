@@ -13,7 +13,15 @@ curl -XPOST -F file=@resume.pdf http://localhost:8080/resume/parse
   "name": "Name from resume",
   "email":"email@email.com",
   "phone":"+8801XXXXXXXXX",
-  "image":"image-as-data-uri"
+  "skills": [
+"Spring",
+"Machine Learning",
+"React",
+"Angular",
+"SQL",
+"Python",
+"Communication"
+]
 }
 ```
 
